@@ -1,6 +1,6 @@
 
 /*tablets*/
-/*@import "animate.css";
+@import "animate.css";
 @media (max-width: 992px)  {
   .navbar-list {
     position: absolute;
@@ -117,16 +117,13 @@
 
 
 /******************************/
-/*celulares*/
-
-@media (max-width: 767px) {
+@media (max-width: 991px) {
 
   #presentation{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
   }
   
   .presentacion{
@@ -193,7 +190,6 @@
     display:none;
   }
   
-  }
   
   
   .service-info h3{
@@ -246,3 +242,4 @@
     .imagenes p {
       font-size: 20px;
     }
+}
