@@ -1,6 +1,6 @@
 /*celulares*/
 
-@media (max-width:576px){
+@mediaonly@media (min-width:320px){
 
     #presentation{
       display: flex;

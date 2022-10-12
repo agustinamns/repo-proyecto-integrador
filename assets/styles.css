@@ -249,7 +249,7 @@ background:transparent;
   width: 50%;
   margin: 0% 30%;
   animation: bajar 2s normal ;
-  transform:translateY(-10)
+  transform:translateY(-10);
 }
 
 @keyframes bajar{
