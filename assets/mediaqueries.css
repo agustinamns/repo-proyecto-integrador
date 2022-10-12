@@ -1,7 +1,7 @@
 
 /*tablets*/
 /*@import "animate.css";
-@media (min-width:321px) and (max-width:768px)  {
+@media (max-width: 992px)  {
   .navbar-list {
     position: absolute;
     top: 100%;
@@ -117,3 +117,132 @@
 
 
 /******************************/
+/*celulares*/
+
+@media (max-width: 767px) {
+
+  #presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .presentacion{
+    width:80%;
+    gap:10px;
+    position:relative;
+  }
+  
+  .presentacion h1{
+    text-align: center;
+  }
+  
+  .frase{
+    width:100%;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .frase-2{
+    width:100%;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .empezar{
+    margin:auto;
+    width:30%;
+    background: rgba(250, 65, 14, 0.235) ;
+  }
+  
+  .empezar:hover {
+    background-color: transparent;
+  }
+  
+  
+  .imgs-presentacion{
+    width: 50%;
+    margin:0px 0px 140px 0px;
+  }
+  
+  .flor-central {
+    width: 100%;
+    border-radius: 190px 190px 190px 190px;
+  position:absolute;
+  opacity: 0.6;
+  animation: bajar 2s normal ;
+  transform:translateY(-1000)
+  }
+  
+  @keyframes bajar{
+  from{
+    transform: translateY(-1000px)
+  }
+  
+  to{
+    transform:translateY(0px)
+  }
+  }
+  
+  .flor-1era{
+    display:none;
+  }
+  .flor-3era{
+    display:none;
+  }
+  
+  }
+  
+  
+  .service-info h3{
+  font-size: 23px;
+  }
+  .service-info .text {
+    font-size: 13px;
+  
+  }
+  .service-info p {
+    font-size: 11px;
+  }
+  
+  .img-service {
+    width: 75%;
+    border-radius: 100%;
+  }
+  
+  .img-service3 {
+    width: 68%;
+  
+  }
+  
+  #contact {
+    gap:30px;
+  }
+  
+  .ubi-canales{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  iframe{
+    width: 100%;
+  }
+  
+  .contenedor-1 {
+    width: 60%;}
+  
+    .contenedor-2{
+  width: 60%;
+    }
+  
+    .imagenes{
+      width: 100%;
+  padding: 0px 50px;
+    }
+  
+    .imagenes p {
+      font-size: 20px;
+    }
