@@ -38,13 +38,18 @@
   }
 
   #presentation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 60px;
     padding: 80px 0px 250px 10px;
   }
 
   .presentacion {
-    width: 35%;
+    width: 30%;
+
   }
+
 
 
   .estrella-dos-presentacion {
@@ -52,24 +57,32 @@
   }
 
   .frase-2 {
-    width: 150%;
+    width: 200%;
     text-align: center;
   }
 
   .frase {
-    width: 150%;
+    width: 200%;
     text-align: center;
   }
   .empezar {
-    width: 90%;
+    width: 200%;
     text-align: center;
   }
   .imgs-presentacion {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 55%;
+    width: 50%;
     position: relative;
+  }
+
+  .flor-1era{
+    width: 30%;
+  }
+
+  .flor-3era{
+    width: 30%;
   }
 
   .flor-background-about {
@@ -111,6 +124,28 @@
 
   .flor-service {
     right: 17%;
+  }
+
+  
+  .contenedor-1{
+    width: 60%;
+  }
+  
+  .contenedor-2{
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  
+  .ubi-canales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  iframe{
+    width: 80%;
   }
 
 }

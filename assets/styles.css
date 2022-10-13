@@ -218,6 +218,7 @@ main {
 }
 
 .frase-2 {
+  width: 150%;
   font-size: 19px;
   font-weight: 200;
   text-align:start;
@@ -236,12 +237,12 @@ main {
 }
 
 .frase {
-  width: 130%;
+  width: 150%;
   font-style: italic;
   font-family: "Cormorant", serif;
   font-weight: 200;
   font-size: 25px;
-  text-align: center;
+  text-align: start;
   animation: bajar 1.2s normal;
   transform: translateY(-10);
 }
@@ -1205,6 +1206,7 @@ iframe {
 footer {
   background-color: var(--background-footer);
   padding: 50px;
+  min-width: 690px;
 }
 
 .icon-footer {
