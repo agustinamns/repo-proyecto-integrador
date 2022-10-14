@@ -146,7 +146,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 690px;
+  min-width: 824px;
   width: 100%;
 }
 
@@ -388,7 +388,7 @@ main {
 .about-us-texto {
   display: flex;
   flex-direction: column;
-  font-weight: 300;
+  font-weight: 700;
   font-size: 20px;
   color: var(--text-white);
   position: relative;
@@ -691,7 +691,7 @@ main {
   flex-direction: column;
   font-size: 20px;
   color: var(--background-contact);
-  font-weight: 300;
+  font-weight: 700;
   position: relative;
   z-index: 0;
 }
@@ -831,13 +831,13 @@ a.slide-despues,
 }
 
 .service-info .text {
-  font-size: 20px;
+  font-size: 21px;
   font-weight: 300;
   color: var(--text-white);
 }
 
 .service-info p {
-  font-size: 15px;
+  font-size: 18px;
 
   color: var(--text-green);
   font-weight: 200;
@@ -864,6 +864,10 @@ button:hover {
   color: var(--background-header);
 }
 
+.contenedor-img-service{
+width: 45%;
+}
+
 .img-service {
   width: 70%;
   border-radius: 100%;
@@ -871,20 +875,20 @@ button:hover {
 
 .img-service2 {
   margin: 40px;
-  width: 200px;
-  height: 200px;
+  width: 70%;
+  height: 150px;
   border-radius: 100%;
 }
 
 .img-service3 {
-  width: 58%;
+  width: 70%;
   border-radius: 100%;
 }
 
 .img-service4 {
   margin: 40px;
-  width: 200px;
-  height: 200px;
+  width: 70%;
+  height: 150px;
   border-radius: 100%;
 }
 
@@ -1206,7 +1210,7 @@ iframe {
 footer {
   background-color: var(--background-footer);
   padding: 50px;
-  min-width: 690px;
+  min-width: 824px;
 }
 
 .icon-footer {
