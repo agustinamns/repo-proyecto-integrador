@@ -1,7 +1,7 @@
-/*tablet*/
+
 /*tablets*/
 @import "animate.css";
-@media (max-width: 992px)  {
+@media (max-width: 992px) {
   .navbar-list {
     position: absolute;
     top: 100%;
@@ -47,10 +47,7 @@
 
   .presentacion {
     width: 30%;
-
   }
-
-
 
   .estrella-dos-presentacion {
     display: none;
@@ -77,11 +74,11 @@
     position: relative;
   }
 
-  .flor-1era{
+  .flor-1era {
     width: 30%;
   }
 
-  .flor-3era{
+  .flor-3era {
     width: 30%;
   }
 
@@ -99,7 +96,7 @@
     top: 200px;
   }
 
-  .about-us-texto{
+  .about-us-texto {
     font-size: 25px;
   }
 
@@ -126,7 +123,7 @@
     right: 14%;
   }
 
-  .service-texto{
+  .service-texto {
     font-size: 25px;
   }
 
@@ -138,10 +135,9 @@
     right: 14%;
   }
 
-  .service-container{
-    width:75%;
+  .service-container {
+    width: 75%;
   }
-
 
   .img-service {
     width: 62%;
@@ -153,81 +149,88 @@
   }
 
   .img-service3 {
-    width: 62%;}
+    width: 62%;
+  }
 
-    .img-service4 {
-      width: 62%;
-      height: 127px;}
+  .img-service4 {
+    width: 62%;
+    height: 127px;
+  }
 
   .service-info h3 {
-    font-size: 38px;}
+    font-size: 38px;
+  }
 
-    .service-info .text {
-      font-size: 23px;}
+  .service-info .text {
+    font-size: 23px;
+  }
 
-      .service-info p {
-        font-size: 20px;}
+  .service-info p {
+    font-size: 20px;
+  }
 
-.formulario{
-  width: 90%;
-  height: 90%;
-}
+  .formulario {
+    width: 90%;
+    height: 90%;
+  }
 
-.formulario img {
-  width: 10%;
-left:45%;
-right: 45%;
-}
+  .formulario img {
+    width: 10%;
+    left: 45%;
+    right: 45%;
+  }
 
-.campo input{
-  font-size: 40px;
-}
+  .campo input {
+    font-size: 40px;
+  }
 
-.campo label{
-  font-size: 35px
-}
+  .campo label {
+    font-size: 35px;
+  }
 
-.campo input:focus ~ label {
+  .campo input:focus ~ label {
+    font-size: 40px;
+  }
 
-  font-size: 40px}
-
-
-  .btn-form{
-    font-size: 30px
+  .btn-form {
+    font-size: 30px;
   }
   .checkbox {
-    font-size: 150%;}
+    font-size: 150%;
+  }
 
-    textarea::placeholder {
-      font-size: 25px;}
-  
-  .contenedor-1{
+  textarea::placeholder {
+    font-size: 25px;
+  }
+
+  .contenedor-1 {
     width: 60%;
   }
-  
-  .contenedor-2{
-    display:flex;
+
+  .contenedor-2 {
+    display: flex;
     flex-direction: column;
     width: 80%;
   }
-  
-  .ubi-canales{
+
+  .ubi-canales {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  
-  iframe{
+
+  iframe {
     width: 80%;
   }
 
   .links .links-a {
-    font-size: 45px;}
+    font-size: 45px;
+  }
 
   .imagenes {
     height: 90%;
-    padding:20px 30px;
+    padding: 20px 30px;
   }
 
   .imagenes .img-mail {
@@ -237,7 +240,6 @@ right: 45%;
   .imagenes p {
     font-size: 25px;
   }
-
 
   /*****/
 
@@ -249,144 +251,148 @@ right: 45%;
 
   .formulario-login form {
     padding: 30px 0px;
-}
+  }
 
-.formulario-login h1 {
-  font-size: 42px;}
+  .formulario-login h1 {
+    font-size: 42px;
+  }
 
-  .google-box{
+  .google-box {
     gap: 15px;
     width: 85%;
     height: 58px;
   }
 
   .google-a {
-    font-size: 25px;}
+    font-size: 25px;
+  }
 
-    .google-box img {
-      width: 9%;}
+  .google-box img {
+    width: 9%;
+  }
 
-      .signup-preg {
-      font-size: 23px;
-      }
+  .signup-preg {
+    font-size: 23px;
+  }
 
-      .signup-preg a {
-        font-size: 26px;
-      }
+  .signup-preg a {
+    font-size: 26px;
+  }
 
-      .logo-link img{
-        width: 35%;
-        margin-top: 40px;
-      }
-      .home-login{
-        display:none;
-      }
-    }
+  .logo-link img {
+    width: 35%;
+    margin-top: 40px;
+  }
+  .home-login {
+    display: none;
+  }
+}
 
 /******************************/
 /*celulares*/
 
 @media (max-width: 576px) {
-
-  .presentacion{
-    display:flex;
+  .presentacion {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap:10px;
-    
+    gap: 10px;
   }
-  
-  .presentacion h1{
+
+  .presentacion h1 {
     text-align: center;
-   font-size: 110px;
+    font-size: 110px;
   }
-  
-  .frase{
+
+  .frase {
     width: 200%;
     font-size: 35px;
     text-align: center;
   }
-  
-  .frase-2{
-  text-align: center;
-  font-size:30px ;
+
+  .frase-2 {
+    text-align: center;
+    font-size: 30px;
   }
 
-  .empezar{
+  .empezar {
     font-size: 25px;
   }
-  
-  .imgs-presentacion{
-      display:none;
-    }
-  
-    .about-us-texto{
-      font-size: 30px;
-    }
 
-    #about-us h2{
-      font-size: 500%;
+  .imgs-presentacion {
+    display: none;
+  }
 
-    }
+  .about-us-texto {
+    font-size: 30px;
+  }
 
-    .about-us-texto p {
-      width: 80%;
+  #about-us h2 {
+    font-size: 500%;
+  }
+
+  .about-us-texto p {
+    width: 80%;
   }
 
   .flor-about {
-    left:90%;
+    left: 90%;
     bottom: 0.1%;
   }
 
   .teach-texto,
-  .btn-compra{
-    font-size: 30px ;
+  .btn-compra {
+    font-size: 30px;
   }
 
-  #teach{
+  #teach {
     padding: 80px 0px 190px 0px;
   }
 
-  #teach h2{
+  #teach h2 {
     font-size: 550%;
   }
 
   .flor-teach {
     right: 20%;
-    top: 90%;}
-  
+    top: 90%;
+  }
+
   .teach-texto p,
   .btn-compra {
-    width: 80%;}
+    width: 80%;
+  }
 
- #cursos{
-  gap:250px;
- }
+  #cursos {
+    gap: 250px;
+  }
 
- .contenedor-curso{
-  width: 500px;
-  height: 700px;
- }
+  .contenedor-curso {
+    width: 500px;
+    height: 700px;
+  }
 
-  .contenedor-curso h3{
-  font-size: 32px;
- }
+  .contenedor-curso h3 {
+    font-size: 32px;
+  }
 
- .precio-box{
-  top: 200px;
-  left: 260px;
-  height: 150px;
- }
+  .precio-box {
+    top: 200px;
+    left: 260px;
+    height: 150px;
+  }
 
- .precio-box .titulo {
-  font-size: 30px;}
+  .precio-box .titulo {
+    font-size: 30px;
+  }
 
   .precio-box p {
     font-size: 23px;
   }
 
-  .info-texto,.leer-mas{
+  .info-texto,
+  .leer-mas {
     font-size: 25px;
     padding: 5px 0px 10px 0px;
   }
@@ -395,35 +401,34 @@ right: 45%;
     font-size: 25px;
   }
 
-    .service-texto{
-      font-size: 30px 
-    }
-  
-    .service-texto p{
-      width: 80%;
-    }
-
-    .flor-service {
-      right: 20%;
-      top: 20%;
-    }
-  
-  .service-container{
-    width:77%;
-  }
-  
-  .service-info h3{
+  .service-texto {
     font-size: 30px;
   }
-  
-  .service-info .text{
-    font-size:16px;
-  }
-  
-  .service-info p{
-    font-size: 14px;
+
+  .service-texto p {
+    width: 80%;
   }
 
+  .flor-service {
+    right: 20%;
+    top: 20%;
+  }
+
+  .service-container {
+    width: 77%;
+  }
+
+  .service-info h3 {
+    font-size: 30px;
+  }
+
+  .service-info .text {
+    font-size: 16px;
+  }
+
+  .service-info p {
+    font-size: 14px;
+  }
 
   .img-service {
     width: 65%;
@@ -435,78 +440,83 @@ right: 45%;
   }
 
   .img-service3 {
-    width: 65%;}
+    width: 65%;
+  }
 
- .img-service4 {
-  width: 65%;
-  height: 130px;}
+  .img-service4 {
+    width: 65%;
+    height: 130px;
+  }
 
   .service-info h3 {
-    font-size: 38px;}
+    font-size: 38px;
+  }
 
-    .service-info .text {
-      font-size: 24px;}
+  .service-info .text {
+    font-size: 24px;
+  }
 
-      .service-info p {
-        font-size: 20px;}
+  .service-info p {
+    font-size: 20px;
+  }
 
+  .campo input {
+    font-size: 30px;
+  }
 
-        .campo input{
-          font-size: 30px;
-        }
-        
-        .campo label{
-          font-size: 27px
-        }
-        
-        .campo input:focus ~ label {
-        
-          font-size: 30px}
-        
-        
-          .btn-form{
-            font-size: 27px
-          }
-          .checkbox {
-            font-size: 150%;}
-        
-            textarea::placeholder {
-              font-size: 25px;}
+  .campo label {
+    font-size: 27px;
+  }
 
+  .campo input:focus ~ label {
+    font-size: 30px;
+  }
 
-  .contact-texto-img h2{
+  .btn-form {
+    font-size: 27px;
+  }
+  .checkbox {
+    font-size: 150%;
+  }
+
+  textarea::placeholder {
+    font-size: 25px;
+  }
+
+  .contact-texto-img h2 {
     font-size: 500%;
-  } 
+  }
 
-  .contact-texto-img p{
-    font-size: 30px
+  .contact-texto-img p {
+    font-size: 30px;
   }
 
   .estrella-contact-2 {
     top: 38%;
-    left: 20%;}
-  
-  .contenedor-1{
+    left: 20%;
+  }
+
+  .contenedor-1 {
     width: 80%;
   }
-  
-  .contenedor-2{
-    display:flex;
+
+  .contenedor-2 {
+    display: flex;
     flex-direction: column;
     width: 80%;
   }
-  
-  .ubi-canales{
+
+  .ubi-canales {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  
-  iframe{
+
+  iframe {
     width: 80%;
   }
-  
+
   /***********/
   .formulario-login {
     width: 400px;
@@ -514,19 +524,17 @@ right: 45%;
     padding: 30px 30px;
   }
 
-  .home-login{
-    display:none;
+  .home-login {
+    display: none;
   }
 
-  .home-sigup{
-    display:none;
+  .home-sigup {
+    display: none;
   }
-
-
 
   .google-box {
     width: 95%;
-  height: 50px;
+    height: 50px;
   }
 
   .signup-preg {

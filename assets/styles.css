@@ -15,7 +15,6 @@ font-family: 'Viaoda Libre', cursive;*/
   --background-contact: #2e4b25;
   --background-footer: rgb(40, 62, 32);
   --title: rgb(255, 55, 0);
-  --btn-buy:/*degrade*/ ;
   --sign-up: radial-gradient(
       circle at 32% 25%,
       rgba(123, 44, 7, 0.816) 1%,
@@ -211,17 +210,16 @@ main {
 .presentacion h1 {
   color: var(--text-green);
   font-size: 100px;
- 
+
   font-weight: 800;
   font-family: "Cormorant", serif;
-
 }
 
 .frase-2 {
   width: 150%;
   font-size: 19px;
   font-weight: 200;
-  text-align:start;
+  text-align: start;
   animation: bajar 1s normal;
   transform: translateY(-10);
 }
@@ -704,7 +702,7 @@ main {
 }
 
 /*NOTA IMPORTANTE: el slider fue construido siguiendo un 
-tutorial de yt y sin recursos de JS. como fue pedido.*/
+tutorial de yt y sin recursos de JS. Como fue pedido.*/
 
 .slider-contenedor {
   background: transparent;
@@ -864,8 +862,8 @@ button:hover {
   color: var(--background-header);
 }
 
-.contenedor-img-service{
-width: 45%;
+.contenedor-img-service {
+  width: 45%;
 }
 
 .img-service {
@@ -1276,22 +1274,22 @@ footer b {
   }
 }
 
-.logo-link img{
+.logo-link img {
   width: 30%;
   margin-top: 40px;
-    animation: bajar 2s normal;
-    transform: translateY(-1000);
+  animation: bajar 2s normal;
+  transform: translateY(-1000);
+}
+
+@keyframes bajar {
+  from {
+    transform: translateY(-1000px);
   }
-  
-  @keyframes bajar {
-    from {
-      transform: translateY(-1000px);
-    }
-  
-    to {
-      transform: translateY(0px);
-    }
+
+  to {
+    transform: translateY(0px);
   }
+}
 
 .formulario-login form {
   padding: 10px 0px;
