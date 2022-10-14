@@ -110,7 +110,7 @@
   }
 
   .flor-about {
-    left: 18%;
+    left: 14%;
   }
 
   .teach-texto {
@@ -123,7 +123,7 @@
   }
 
   .flor-teach {
-    right: 17%;
+    right: 14%;
   }
 
   .service-texto{
@@ -135,7 +135,7 @@
   }
 
   .flor-service {
-    right: 17%;
+    right: 14%;
   }
 
   .service-container{
@@ -238,16 +238,55 @@ right: 45%;
     font-size: 25px;
   }
 
+
+  /*****/
+
+  .formulario-login {
+    width: 600px;
+    height: 480px;
+    padding: 30px 30px;
+  }
+
+  .formulario-login form {
+    padding: 30px 0px;
 }
 
+.formulario-login h1 {
+  font-size: 42px;}
+
+  .google-box{
+    gap: 15px;
+    width: 85%;
+    height: 58px;
+  }
+
+  .google-a {
+    font-size: 25px;}
+
+    .google-box img {
+      width: 9%;}
+
+      .signup-preg {
+      font-size: 23px;
+      }
+
+      .signup-preg a {
+        font-size: 26px;
+      }
+
+      .logo-link img{
+        width: 35%;
+        margin-top: 40px;
+      }
+      .home-login{
+        display:none;
+      }
+    }
 
 /******************************/
 /*celulares*/
 
 @media (max-width: 576px) {
-
-#presentation{
-}
 
   .presentacion{
     display:flex;
@@ -295,6 +334,11 @@ right: 45%;
       width: 80%;
   }
 
+  .flor-about {
+    left:90%;
+    bottom: 0.1%;
+  }
+
   .teach-texto,
   .btn-compra{
     font-size: 30px ;
@@ -307,31 +351,35 @@ right: 45%;
   #teach h2{
     font-size: 550%;
   }
+
+  .flor-teach {
+    right: 20%;
+    top: 90%;}
   
   .teach-texto p,
   .btn-compra {
     width: 80%;}
 
-#cursos{
+ #cursos{
   gap:250px;
-}
+ }
 
-.contenedor-curso{
+ .contenedor-curso{
   width: 500px;
   height: 700px;
-}
+ }
 
-.contenedor-curso h3{
+  .contenedor-curso h3{
   font-size: 32px;
-}
+ }
 
-.precio-box{
+ .precio-box{
   top: 200px;
   left: 260px;
   height: 150px;
-}
+ }
 
-.precio-box .titulo {
+ .precio-box .titulo {
   font-size: 30px;}
 
   .precio-box p {
@@ -353,6 +401,11 @@ right: 45%;
   
     .service-texto p{
       width: 80%;
+    }
+
+    .flor-service {
+      right: 20%;
+      top: 20%;
     }
   
   .service-container{
@@ -384,7 +437,7 @@ right: 45%;
   .img-service3 {
     width: 65%;}
 
-.img-service4 {
+ .img-service4 {
   width: 65%;
   height: 130px;}
 
@@ -398,6 +451,29 @@ right: 45%;
         font-size: 20px;}
 
 
+        .campo input{
+          font-size: 30px;
+        }
+        
+        .campo label{
+          font-size: 27px
+        }
+        
+        .campo input:focus ~ label {
+        
+          font-size: 30px}
+        
+        
+          .btn-form{
+            font-size: 27px
+          }
+          .checkbox {
+            font-size: 150%;}
+        
+            textarea::placeholder {
+              font-size: 25px;}
+
+
   .contact-texto-img h2{
     font-size: 500%;
   } 
@@ -405,6 +481,10 @@ right: 45%;
   .contact-texto-img p{
     font-size: 30px
   }
+
+  .estrella-contact-2 {
+    top: 38%;
+    left: 20%;}
   
   .contenedor-1{
     width: 80%;
@@ -427,5 +507,29 @@ right: 45%;
     width: 80%;
   }
   
-  
+  /***********/
+  .formulario-login {
+    width: 400px;
+    height: 460px;
+    padding: 30px 30px;
   }
+
+  .home-login{
+    display:none;
+  }
+
+  .home-sigup{
+    display:none;
+  }
+
+
+
+  .google-box {
+    width: 95%;
+  height: 50px;
+  }
+
+  .signup-preg {
+    font-size: 18px;
+  }
+}

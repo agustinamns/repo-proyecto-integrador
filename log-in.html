@@ -7,6 +7,7 @@
     <title>Log In|Malaya Jardineria</title>
     <link rel="stylesheet" href="assets/styles.css"/>
     <link href="index.html"/>
+    <link rel="stylesheet" href="assets/mediaqueries.css">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -14,10 +15,12 @@
 </head>
 <body style="background: rgb(40, 62, 32)">
     <header>
-        <img src="assets/img/icon.png.png" class="logo" />
+      <a class="logo-link" href="index.html">
+        <img src="assets/img/icon.png.png"/>
+      </a>
         <nav class="navbar">
           <ul class="navbar-list">
-            <li >
+            <li class="home-login">
               <a class="login-a" href="index.html">
                 <img src="assets/img/icons8-home-24.png"/>
               </a>
@@ -27,7 +30,7 @@
       </header>
 
       <section id="login-form">
-          <div class="formulario-login animate__animated animate__fadeInDownBig">
+          <div class="formulario-login">
             <h1>Log In</h1>
             <div class="google-box">
               <img src="assets/img/icons8-google-48.png"/>
@@ -47,7 +50,7 @@
 
               <div class="campo">
                 <input type="password" id="contrasena" required/>
-                <label for="contrasena">Contrase;a:</label>
+                <label for="contrasena">Contraseña:</label>
 
               </div>
               
