@@ -511,7 +511,7 @@ main {
   align-items: center;
   justify-content: center;
   gap: 200px;
-  padding: 40px 0;
+  padding: 60px 0;
   width: 100%;
 }
 
@@ -527,6 +527,7 @@ main {
   padding: 10px;
   border-radius: 300px 300px 0px 0px;
   position: relative;
+  margin-top:30px;
 }
 
 .estrella-curso {
@@ -535,7 +536,7 @@ main {
 
 .contenedor-curso h3 {
   color: var(--text-green);
-  margin: 10px 0px 10px 0px;
+  margin: 20px 0px 10px 0px;
   font-size: 23px;
   width: 30%;
   text-align: center;
