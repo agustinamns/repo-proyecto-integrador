@@ -149,7 +149,7 @@ width: 100%;
 position: relative;
 
   /*min-width: 824px;*/
-  min-width:597px;
+  min-width:100%;
 }
 
 #presentation {
@@ -1213,6 +1213,7 @@ footer {
   background-color: var(--background-footer);
   padding: 50px;
   min-width:599px;
+  min-width:100%;
  /* min-width: 824px;*/
   justify-content: center;
   align-items: center;
