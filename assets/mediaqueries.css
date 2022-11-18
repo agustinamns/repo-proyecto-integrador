@@ -158,11 +158,11 @@
   }
 
   .service-info h3 {
-    font-size: 38px;
+    font-size: 37px;
   }
 
   .service-info .text {
-    font-size: 23px;
+    font-size: 20px;
   }
 
   .service-info p {
@@ -293,11 +293,6 @@
 
 @media (max-width: 576px) {
 
-
- 
-  .precio-box {
-    display:none;
-  }
   .presentacion {
     display: flex;
     flex-direction: column;
@@ -383,12 +378,12 @@
   }
 
   .contenedor-curso h3 {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .precio-box {
     top: 200px;
-    left: 260px;
+    left: 200px;
     height: 150px;
   }
 
@@ -397,7 +392,7 @@
   }
 
   .precio-box p {
-    font-size: 23px;
+    font-size: 20px;
   }
 
   .info-texto,
