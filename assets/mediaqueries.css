@@ -310,22 +310,22 @@
   .presentacion h1 {
     text-align: center;
     /*font-size: 110px;*/
-    font-size: 85px;
+    font-size: 57px;
   }
 
   .frase {
     width: 200%;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
   }
 
   .frase-2 {
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .empezar {
-    font-size: 25px;
+    font-size: 15px;
   }
 
   .imgs-presentacion {
@@ -333,11 +333,11 @@
   }
 
   .about-us-texto {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   #about-us h2 {
-    font-size: 500%;
+    font-size: 300%;
   }
 
   .about-us-texto p {
@@ -351,7 +351,7 @@
 
   .teach-texto,
   .btn-compra {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   #teach {
@@ -359,7 +359,7 @@
   }
 
   #teach h2 {
-    font-size: 550%;
+    font-size: 300%;
   }
 
   .flor-teach {
@@ -377,13 +377,13 @@
   }
 
   .contenedor-curso {
-    width: 500px;
+    width: 350px;
     height: 700px;
     margin:30px 0px 20px;
   }
 
   .contenedor-curso h3 {
-    font-size: 32px;
+    font-size: 25px;
   }
 
   .precio-box {
@@ -402,16 +402,20 @@
 
   .info-texto,
   .leer-mas {
-    font-size: 25px;
+    font-size: 20px;
     padding: 5px 0px 10px 0px;
   }
 
   .leer-mas a {
-    font-size: 25px;
+    font-size: 22px;
   }
 
+
+  #service h2{
+    font-size: 300%;
+  }
   .service-texto {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .service-texto p {
@@ -424,37 +428,53 @@
   }
 
   .service-container {
-    width: 77%;
+    width: 80%;
+    border-radius: 20%;
+    display: flex;
+    flex-direction: column;
   }
 
+  .service-info{
+    gap:3px;
+    align-items:center;
+    text-align: center;
+  }
+
+
   .service-info h3 {
-    font-size: 30px;
+    font-size: 10px;
+ 
   }
 
   .service-info .text {
-    font-size: 16px;
+    font-size: 5px;
+
   }
 
   .service-info p {
-    font-size: 14px;
+    font-size: 10px;
   }
 
   .img-service {
-    width: 65%;
+   /* width: 65%;*/
+   display: none;
   }
 
   .img-service2 {
-    width: 65%;
-    height: 130px;
+   /* width: 65%;
+    height: 130px;*/
+    display: none;
   }
 
   .img-service3 {
-    width: 65%;
+   /* width: 65%;*/
+   display: none;
   }
 
   .img-service4 {
-    width: 65%;
-    height: 130px;
+ /*   width: 65%;
+    height: 130px;*/
+    display: none;
   }
 
   .service-info h3 {
@@ -493,11 +513,11 @@
   }
 
   .contact-texto-img h2 {
-    font-size: 500%;
+    font-size: 300%;
   }
 
   .contact-texto-img p {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .estrella-contact-2 {
