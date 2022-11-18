@@ -293,17 +293,17 @@
 
 @media (max-width: 576px) {
 
-  header{
-    position: absolute;
-  }
  
-
+  .precio-box {
+    display:none;
+  }
   .presentacion {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 10px;
+  
   }
 
   .presentacion h1 {
