@@ -51,7 +51,6 @@ header {
   position: fixed;
   top: 0;
   z-index: 2;
-  min-width:100%;
 }
 
 .logo {
@@ -142,14 +141,13 @@ main {
   background-color: var(--background-about);
   display: flex;
 width: 100%;
-  margin: 0px;
+  margin:0px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-position: relative;
-
+max-width: 100%;
+overflow: hidden;
   /*min-width: 824px;*/
-  min-width:100%;
 }
 
 #presentation {
@@ -1212,8 +1210,6 @@ iframe {
 footer {
   background-color: var(--background-footer);
   padding: 50px;
-  min-width:599px;
-  min-width:100%;
  /* min-width: 824px;*/
   justify-content: center;
   align-items: center;
