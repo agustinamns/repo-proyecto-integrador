@@ -145,8 +145,8 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 824px;
-  width: 100%;
+
+ /* min-width: 824px;*/
 }
 
 #presentation {
@@ -1209,7 +1209,10 @@ iframe {
 footer {
   background-color: var(--background-footer);
   padding: 50px;
-  min-width: 824px;
+
+ /* min-width: 824px;*/
+  justify-content: center;
+  align-items: center;
 }
 
 .icon-footer {

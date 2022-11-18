@@ -292,6 +292,12 @@
 /*celulares*/
 
 @media (max-width: 576px) {
+
+  header{
+    position: absolute;
+  }
+ 
+
   .presentacion {
     display: flex;
     flex-direction: column;
@@ -302,7 +308,8 @@
 
   .presentacion h1 {
     text-align: center;
-    font-size: 110px;
+    /*font-size: 110px;*/
+    font-size: 85px;
   }
 
   .frase {
